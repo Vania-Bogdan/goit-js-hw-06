@@ -7,7 +7,7 @@ function onFormSubmit(event) {
     const password = event.currentTarget.elements.password.value;
 
     if (email === '' || password === '') {
-        alert('Please fill all fields!')
+        alert('Fill all fields please!')
     };
 
     if (email !== '' && password !== '') {
